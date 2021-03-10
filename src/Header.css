@@ -1,0 +1,38 @@
+@font-face { font-family: 'MariaRoseRegular'; src: url('./fonts/MariaRoseRegular.otf'); } 
+
+
+h1{
+    font-family: 'MariaRoseRegular';
+}
+.header{
+    display: flex;
+    top: 0;
+    z-index: 100;
+    padding: 10px;
+  
+    
+
+}
+.header__logo{
+    width:150px;
+    padding: 10px;
+    object-fit: contain;
+    margin-right: 60px;
+   
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding: 10px;
+    margin-right: 60px;
+}
+.header__basket{
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 60px;
+}
+.header__options{
+    margin-right: 20px;
+}

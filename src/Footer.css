@@ -1,0 +1,30 @@
+.footer{
+    display:flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+   
+}
+.footer__copyright{
+    float: right;
+    display: flex;
+   justify-content: flex-end;
+    margin-top: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    color: #696969;
+}
+.footer__social{
+    display: flex;
+justify-content: flex-start;
+
+margin-left: 40px;
+margin-top: 10px;
+padding: 10px;
+}
+
+.footer__options{
+
+    margin-right:20px;
+    color:black;
+    font-size: 15px;
+}

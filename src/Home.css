@@ -1,0 +1,24 @@
+@font-face { font-family: 'MariaRoseRegular'; src: url('./fonts/MariaRoseRegular.otf'); } 
+
+
+h2{
+    font-family: 'MariaRoseRegular';
+}
+.home{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.home__title{
+    text-align: center;
+    font-size: 60px;
+    color:#696969;
+}
+.home__title__desc{
+    text-align: center;
+    font-size: 15px;
+   
+
+    
+}
